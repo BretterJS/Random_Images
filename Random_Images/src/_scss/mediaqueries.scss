@@ -1,0 +1,251 @@
+// Media Queries
+
+@media all and (max-width: 800px) {
+
+  #img-click {
+
+    display: none;
+
+  }
+
+}
+
+//////////
+
+@media all and (max-width: 1100px) {
+
+  h1 {
+
+    font-size: 2.2rem;
+
+  }
+
+  button {
+
+    margin: auto;
+
+  }
+
+  #img-click {
+
+    display: none;
+
+  }
+
+  #image-div {
+
+    margin: auto;
+    margin-top: 1rem;
+
+    #img1, #img2 {
+
+      height: 350px;
+      width: 350px;
+
+    }
+
+    #img3 {
+
+      display: none;
+
+    }
+
+  }
+
+}
+
+//////////
+
+@media all and (max-width: 800px) {
+
+  h1 {
+
+    font-size: 2.2rem;
+
+  }
+
+  #image-div {
+
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+
+    #img1 {
+
+      height: 350px;
+      width: 350px;
+
+    }
+
+    #img2, #img3 {
+
+      display: none;
+
+    }
+
+  }
+
+}
+
+//////////
+
+@media all and (min-width: 700px) and (max-width: 799px) {
+
+  #image-div {
+
+    #img1 {
+
+      width: 270px;
+      height: 270px;
+
+    }
+
+    #img2 {
+
+      display: inline-block;
+      width: 270px;
+      height: 270px;
+
+    }
+
+  }
+
+}
+
+//////////
+
+@media all and (max-width: 400px) {
+
+  h1 {
+
+    font-size: 1.8rem;
+
+  }
+
+  button {
+
+    margin-top: 1rem;
+
+  }
+
+  #image-div {
+
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+
+    #img1 {
+
+      height: 260px;
+      width: 260px;
+
+    }
+
+  }
+
+} 
+
+//////////
+
+@media all and (max-width: 300px) {
+
+
+  h1 {
+
+    font-size: 1.5rem;
+
+  }
+
+  button {
+
+    margin-top: 1.5rem;
+
+  }
+
+
+  #image-div {
+
+    grid-column: 1/2;
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+
+    #img1 {
+
+      height: 220px;
+      width: 220px;
+
+    }
+
+  }
+
+} 
+
+@media all and (max-width: 300px) {
+
+  #image-div {
+
+    #img1 {
+
+      height: 200px;
+      width: 200px;
+      margin: none;
+      padding: none;
+
+    }
+
+  }
+
+} 
+
+@media all and (min-width: 180px) and (max-width: 250px) {
+
+  h1 {
+
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+
+  }
+
+  #image-div {
+
+    #img1 {
+
+      height: 140px;
+      width: 140px;
+
+    }
+
+  }
+
+} 
+
+@media all and (max-width: 179px) {
+
+  h1 {
+
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+
+  }
+
+  button {
+
+    // height: 20px;
+    // width: 40px;
+
+  }
+
+  #image-div {
+
+    #img1 {
+
+      height: 100px;
+      width: 100px;
+
+    }
+
+  }
+
+} 
+
+
+
+

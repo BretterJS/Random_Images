@@ -1,0 +1,381 @@
+// Animations
+
+////////// Animation for all images on button click
+  
+.newImg {
+
+  animation: fade-img 1s;
+
+}
+
+@keyframes fade-img {
+
+  1% {
+
+    opacity: 0;
+    transform: scale(.01);
+
+  }
+
+  10% {
+
+    opacity: .1;
+    transform: scale(.1);
+    transform: rotate(10deg);
+  
+  }
+
+  20% {
+
+    opacity: .2;
+    transform: scale(.2);
+    transform: rotate(-10deg);
+  
+  }
+
+  30% {
+
+    opacity: .3;
+    transform: scale(.3);
+    transform: skewY(5deg);
+  }
+
+  40% {
+
+    opacity: .4;
+    transform: scale(.4);
+    transform: skewX(-5deg)
+  
+  }
+
+  50% {
+
+    opacity: .5;
+    transform: scale(.5);
+
+  }
+
+  60% {
+
+    opacity: .6;
+    transform: scale(.6);
+    transform: rotate(-10deg);
+    
+  }
+
+  70% {
+
+    opacity: .7;
+    transform: scale(.7);
+    transform: rotate(10deg);
+    
+  }
+
+  80% {
+
+    opacity: .8;
+    transform: scale(.8);
+    transform: skewY(-5deg);
+  }
+
+  90% {
+
+    opacity: .9;
+    transform: scale(.9);
+    transform: skewX(5deg);
+
+  }
+
+  100% {
+
+    opacity: 1;
+    transform: scale(1);
+
+  }
+
+}
+
+////////// Animation for image 1 click
+
+.imgClick1 {
+
+  z-index: 1;
+  animation: image1Clicked linear 1s;
+
+}
+
+@keyframes image1Clicked {
+
+  10% {
+
+    transform: translateX(.2rem);
+
+  }
+
+  20% {
+
+    transform: translateY(.2rem);
+    transfor: rotate(45deg);
+
+  }
+
+  30% {
+
+    transform: translateX(-.2rem);
+    transform: scale(1.05);
+    transform: rotate(-45deg)
+
+  }
+
+  40% {
+
+    transform: translateX(-.2rem);
+    transform: scale(1.2);
+    transform: skew(45deg);
+
+  }
+
+  50% {
+
+    transform: translateY(-.2rem);
+    opacity: 0;
+    transform: skew(-90deg);
+
+  }
+
+  60%{
+
+    transform: translateY(-.2rem);
+    transform: scale(1.2);
+    transform: skew(45deg);
+
+  }
+
+  70% {
+
+    transform: translateX(-.2rem);
+    transform: scale(1);
+    transform: rotate(-45deg);
+
+
+  }
+
+  80% {
+
+    transform: translateY(.2rem);
+    transform: rotate(45deg);
+  }
+
+  85% {
+
+    transform: skewY(10deg);
+
+  }
+
+  90% {
+
+    transform: skew(10deg);
+
+  }
+
+  95% {
+
+    transform: skewY(-10deg);
+  }
+
+  100% {
+
+    transform: skew(-10deg);
+
+  }
+
+}
+
+
+////////// Animation for image 2 click
+
+.imgClick2 {
+
+  z-index: 1;
+  animation: image2Clicked linear 1s;
+
+
+@keyframes image2Clicked {
+
+  1% {
+
+    opacity: 0;
+    transform: scale(.01);
+
+  }
+
+  10% {
+
+    opacity: .1;
+    transform: scale(.1);
+
+  }
+
+  20% {
+
+    opacity: .2;
+    transform: scale(.2);
+
+  }
+
+  30% {
+
+    opacity: .3;
+    transform: scale(.3);
+  }
+
+  40% {
+
+    opacity: .4;
+    transform: scale(.4);
+
+  }
+
+  50% {
+
+    opacity: .5;
+    transform: scale(.5);
+
+  }
+
+  60% {
+
+    opacity: .6;
+    transform: scale(.6);
+    transform: skewY(5deg);
+
+  }
+
+  70% {
+
+    opacity: .7;
+    transform: scale(.7);
+    transform: skew(-5deg)
+  }
+
+  80% {
+
+    opacity: .8;
+    transform: scale(.8);
+    transform: skewY(-5deg);
+  }
+
+  90% {
+
+    opacity: .9;
+    transform: scale(.9);
+    transform: skew(5deg);
+
+
+  }
+
+  100% {
+
+    opacity: 1;
+    transform: scale(1);
+
+  }
+
+}
+
+}
+
+////////// Animation for image 3 click
+
+.imgClick3 {
+
+  z-index: 1;
+  animation: image3Clicked linear 1s;
+
+}
+
+@keyframes image3Clicked {
+
+  10% {
+
+    transform: translateX(.2rem);
+    transform: rotate(90deg);
+
+  }
+
+  20% {
+
+    transform: translateY(.2rem);
+    transform: rotate(90deg);
+
+  }
+
+  30% {
+
+    transform: translateX(-.2rem);
+    transform: scale(1.05);
+
+  }
+
+  40% {
+
+    transform: translateX(-.2rem);
+    transform: scale(1.1);
+    transform: rotate(180deg);
+
+  }
+
+  50% {
+
+    transform: translateY(-.2rem);
+    opacity: 0;
+
+  }
+
+  60%{
+
+    transform: translateY(-.2rem);
+    transform: scale(1.05);
+    transform: rotate (-180deg);
+
+  }
+
+  70% {
+
+    transform: translateX(-.2rem);
+    transform: scale(1);
+
+  }
+
+  80% {
+
+    transform: translateY(.2rem);
+    transform: rotate(-90deg);
+  }
+
+  85% {
+
+    transform: skewY(10deg);
+    transform: rotate(-90deg);
+
+  }
+
+  90% {
+
+    transform: skew(10deg);
+
+  }
+
+  95% {
+
+    transform: skewY(-10deg);
+  }
+
+  100% {
+
+    transform: skew(-10deg);
+
+  }
+
+}
+
