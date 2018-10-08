@@ -11,7 +11,12 @@ btn.addEventListener('click', btnClick);
 
 function btnClick() {
 
-  btn.classList.add('btnAnimation');
+  if (btn.classList.contains('btnAnimation') {
+    btn.classList.remove('btnAnimation)
+      } else {
+        btn.classList.add('btnAnimation');
+  };
+
   h1.style.transform = 'scale(1.2)';
   h1.style.color = 'white';
   h1.style.textShadow = '.1rem .1rem black';
